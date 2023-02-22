@@ -12,6 +12,9 @@
 .skills-text {
   font-size: 20px;
 }
+#fullstack-img {
+  margin-top: 20%;
+}
 
 .skills-text-div {
   margin-left: 50px;
@@ -28,6 +31,9 @@
 .skills-image-div > * {
   max-width: 100%;
   height: auto;
+  display: "flex";
+  flex-direction: "row";
+  align-items: "center";
   margin-top: 100px;
 }
 

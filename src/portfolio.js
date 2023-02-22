@@ -41,7 +41,7 @@ const skills = {
         "⚡ Develop highly interactive User Interfaces and Backend for web and mobile applications",
         "⚡ Elevate your code quality with meticulous unit and integration testing.",
         "⚡ Deploying the applications seamlessly on popular app marketplaces such as the App Store and Google Play, as well as on the web",
-        "⚡ Integration of third party services such as Firebase/ GCP / Google Analytics / Microsoft Azure ",
+        "⚡ Integration of third party services such as Firebase/ Google Cloud Platform / Google Analytics / Microsoft Azure ",
       ],
       softwareSkills: [
         {
@@ -67,17 +67,32 @@ const skills = {
           },
         },
         {
-          skillName: "Bootstrap",
-          fontAwesomeClassname: "simple-icons:bootstrap",
+          skillName: "Typescript",
+          fontAwesomeClassname: "simple-icons:typescript",
           style: {
-            color: "#563d7c",
+            color: "#007acc",
           },
         },
+       
         {
-          skillName: "ReactJS",
+          skillName: "React",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
+          style: {
+            color: "#DE33A6",
+          },
+        },
+        {
+          skillName: "Vue.js",
+          fontAwesomeClassname: "simple-icons:vuejs",
+          style: {
+            color: "#42b883",
           },
         },
         {
@@ -88,24 +103,66 @@ const skills = {
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: ".NET Framework",
+          fontAwesomeClassname: "simple-icons:dotnet",
           style: {
-            color: "#CB3837",
+            color: "#512bd4",
           },
         },
         {
-          skillName: "Flask",
-          fontAwesomeClassname: "simple-icons:flask",
+          skillName: "C#",
+          fontAwesomeClassname: "simple-icons:csharp",
+          style: {
+            color: "#F0F8FF",
+          },
+        },
+        {
+          skillName: "iOS",
+          fontAwesomeClassname: "simple-icons:apple",
+          style: {
+            color: "#555555",
+          },
+        },
+        {
+          skillName: "Android",
+          fontAwesomeClassname: "simple-icons:android",
+          style: {
+            color: "#3DDC84",
+          },
+        },
+         {
+           skillName: "Flutter",
+           fontAwesomeClassname: "simple-icons:flutter",
+           style: {
+             color: "#02569B",
+           },
+         },
+         {
+           skillName: "Dart",
+         fontAwesomeClassname: "simple-icons:dart",
+          style: {
+           color: "#29B0EE",
+          },
+         },
+         {
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:java",
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "Spring",
+          fontAwesomeClassname: "simple-icons:spring",
+          style: {
+            color: "#177245 ",
+          },
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
           style: {
             color: "#000000",
-          },
-        },
-        {
-          skillName: "Django",
-          fontAwesomeClassname: "simple-icons:django",
-          style: {
-            color: "#0c4b33",
           },
         },
         {
@@ -115,48 +172,6 @@ const skills = {
             color: "#439743",
           },
         },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
-        // {
-        //   skillName: "Android",
-        //   fontAwesomeClassname: "simple-icons:android",
-        //   style: {
-        //     color: "#3DDC84",
-        //   },
-        // },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
-        // {
-        //   skillName: "Dart",
-        //   fontAwesomeClassname: "simple-icons:dart",
-        //   style: {
-        //     color: "#29B0EE",
-        //   },
-        // },
-        {
-          skillName: "Linux",
-          fontAwesomeClassname: "simple-icons:linux",
-          style: {
-            color: "#000000",
-          },
-        },
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -164,27 +179,21 @@ const skills = {
             color: "#4479A1",
           },
         },
-        // {
-        //   skillName: "jQuery",
-        //   fontAwesomeClassname: "simple-icons:jquery",
-        //   style: {
-        //     color: "#0865A6",
-        //   },
-        // },
-        // {
-        //   skillName: "Wordpress",
-        //   fontAwesomeClassname: "simple-icons:wordpress",
-        //   style: {
-        //     color: "#207297",
-        //   },
-        // },
-        // {
-        //   skillName: "Apache",
-        //   fontAwesomeClassname: "simple-icons:apache",
-        //   style: {
-        //     color: "#CA1A22",
-        //   },
-        // },
+       
+         {
+         skillName: "Apache",
+           fontAwesomeClassname: "simple-icons:apache",
+           style: {
+            color: "#CA1A22",
+           },
+        },
+        {
+          skillName: "Oracle database",
+          fontAwesomeClassname: "simple-icons:oracle",
+          style: {
+            color: "#f80000",
+          },
+        },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -192,27 +201,9 @@ const skills = {
             color: "#E94E32",
           },
         },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
+        
+       
+      
       ],
     },
     {
