@@ -35,13 +35,13 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Web and mobile Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive User Interfaces and Backend for web applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Creating application backend in Node, Express, Flask, Django and Fast-API",
-        "⚡ Integration of third party services such as Firebase/ AWS / GCP",
+        "⚡ Develop highly interactive User Interfaces and Backend for web and mobile applications",
+        "⚡ Elevate your code quality with meticulous unit and integration testing.",
+        "⚡ Deploying the applications seamlessly on popular app marketplaces such as the App Store and Google Play, as well as on the web",
+        "⚡ Integration of third party services such as Firebase/ GCP / Google Analytics / Microsoft Azure ",
       ],
       softwareSkills: [
         {
