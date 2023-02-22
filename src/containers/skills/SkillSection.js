@@ -65,10 +65,10 @@ function SkillSection(props) {
                   </h1>
                 </Fade>
                 <Fade left duration={1500}>
-                  <SoftwareSkill logos={skill.softwareSkills} />
+                  <SoftwareSkill isCloud={true} logos={skill.softwareSkills} />
                 </Fade>
                 <Fade left duration={2000}>
-                  <div>
+                  <div className="skills-details-text">
                     {skill.skills.map((skillSentence) => {
                       return (
                         <p
