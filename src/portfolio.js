@@ -1,5 +1,5 @@
 /* Change this file to get your personal Porfolio */
-
+import { style } from "glamor";
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
@@ -18,18 +18,18 @@ const greeting = {
     "Web and mobile developer . Delivering High-Quality, User-Centered Applications. Curious and Ambitious Developer Building Innovative Solutions for a Better Tomorrow",
   resumeLink:
     "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
-  mail: "mailto:im.vedanshvijay2002@gmail.com",
+  mail: "mailto:tokiniainaherve.andrianarison@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/vvHacker007/",
-  linkedin: "https://www.linkedin.com/in/vedansh-vijaywargiya/",
-  gmail: "im.vedanshvijay2002@gmail.com",
+  github: "",
+  linkedin: "https://www.linkedin.com/in/toky-herve/",
+  gmail: "tokiniainaherve.andrianarison@gmail.com",
   // gitlab: "https://gitlab.com/harikanani",
-  facebook: "https://www.facebook.com/vedansh.vijaywargiya/",
-  twitter: "https://twitter.com/vedansh_v_/",
-  instagram: "https://www.instagram.com/vedv_2002/",
+  facebook: "",
+  twitter: "",
+  instagram: "",
 };
 
 const skills = {
@@ -82,8 +82,8 @@ const skills = {
           },
         },
         {
-          skillName: "GraphQL",
-          fontAwesomeClassname: "simple-icons:graphql",
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
           style: {
             color: "#DE33A6",
           },
@@ -92,7 +92,7 @@ const skills = {
           skillName: "Vue.js",
           fontAwesomeClassname: "simple-icons:vuejs",
           style: {
-            color: "#42b883",
+            color: "#dd1b16",
           },
         },
         {
@@ -254,51 +254,57 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "SRM Institute of Science and Technology",
-      subtitle: "Bachelors in Computer Science and Engineering",
-      logo_path: "SRM_Logo.png",
-      alt_name: "SSEC",
-      duration: "2019 - 2023",
+      title: "Côte d'Azur University",
+      subtitle: "Master MBDS in Mobility, Big Data and Systems Integration ",
+      logo_path: "cote_d_azur.png",
+      alt_name: "Côte d'Azur",
+      duration: "2020 - 2021",
       descriptions: [
-        "⚡  I'm currently pursuing my Bachelors in Computer Science and Engineering.",
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        "⚡ Very professional, it emphasizes the development of computer applications with a focus on big data and data analysis.",
+        "⚡ The pedagogical approach includes an inductive approach based on supervised prototypes defined with industrial partners.",
+        "⚡ Courses on agile project management (SCRUM) and professional seminars complete the curriculum.",
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "https://www.srmist.edu.in/",
+      website_link: "https://univ-cotedazur.fr/",
+      width:330,height:"auto",
     },
+    {
+      title: "It -  University",
+      subtitle: "Bachelor degree in Computer science ",
+      logo_path: "it_university.png",
+      alt_name: "It-university",
+      duration: "2016 - 2019",
+      descriptions: [
+        "⚡ Bachelor in  Application development (Programming), Web Integration and Web Designer, and Database",
+        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+      ],
+      website_link: "https://www.ituniversity-mg.com/page/",
+      width:330,height:"auto",
+    }
   ],
 };
 
 const certifications = {
   certifications: [
     {
-      title: "Google Cloud",
-      subtitle: "Google Cloud Training",
-      logo_path: "google_logo.png",
+      title: "Meta Android developer",
+      subtitle: "Job-ready skills for an in-demand career and earn a credential from Meta.",
+      logo_path: "meta_android.png",
       certificate_link:
-        "https://drive.google.com/file/d/1r0hYt8Pp0N0u_4Tg-poMF1Qv3LkoKVAP/view",
-      alt_name: "MongoDB University",
+        "https://www.credly.com/badges/9e62b367-5091-436c-a760-9a7b6e9aadae",
+      alt_name: "Meta Android developer",
       // color_code: "#2AAFED",
       color_code: "#2AAFED",
     },
+   
     {
-      title: "Hackathon",
-      subtitle: "Backyard Hacks 2.0",
-      logo_path: "hackathon1.png",
-      // certificate_link:
-      //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#f47e2c",
-    },
-    {
-      title: "Hackathon",
-      subtitle: "HyperHacks",
-      logo_path: "hackathon2.png",
-      // certificate_link:
-      //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
+      title: "Java Certification",
+      subtitle: "Codingame: Problems solving with Java",
+      logo_path: "codeingame.svg",
+      certificate_link:
+        "https://www.codingame.com/certification/5Jo_V6HwyUbTSHkIWP50XQ",
+      alt_name: "java",
+      color_code: "#fcd207",
     },
     // {
     //   title: "A300: Atlas Security",
@@ -311,79 +317,14 @@ const certifications = {
     //   color_code: "#47A048",
     // },
     {
-      title: "Contributor's Hack",
-      subtitle: "Hakin Codes",
-      logo_path: "HakinCodes.jfif",
+      title: "Meta UX/UI Design",
+      subtitle: "Principles of UX/UI Design",
+      logo_path: "meta.png",
       certificate_link:
-        "https://drive.google.com/file/d/1xvyy1M05lQN-s2VKw_Qvz6E7rPwrK2qm/view?usp=sharing",
-      alt_name: "Opensource Event",
-      color_code: "#fefd7b",
+        "https://coursera.org/share/6e8d12d540903d196c26edb4a6813c00",
+      alt_name: "UX/UI Design",
+      color_code: "#e7870c",
     },
-    // {
-    //   title: "MLH Local Hack Day: Build",
-    //   subtitle: "Major League Hacking",
-    //   logo_path: "mlh-logo.svg",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-    //   alt_name: "Google",
-    //   color_code: "#fe0037",
-    // },
-    {
-      title: "Olympiad",
-      subtitle: "Ramanujan Mathematics Olympiad",
-      logo_path: "Olympiad.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1SAKHjKisJIY3-FRZQGKLusdsGDusXAjX/view",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
-    {
-      title: "Competitive Programming",
-      subtitle: "Reply Challenges",
-      logo_path: "Reply.jfif",
-      certificate_link:
-        "https://drive.google.com/file/d/1KamrXJPTrF3zfMuEerbSnFUjOkt-agKT/view",
-      alt_name: "Reply",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Competitive Programming",
-      subtitle: "Google Hash Code",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
-      alt_name: "Reply",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Training",
-      subtitle: "30 Days of Open Source",
-      logo_path: "CFC.jfif",
-      certificate_link:
-        "https://drive.google.com/file/d/1SAKHjKisJIY3-FRZQGKLusdsGDusXAjX/view",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#a60000",
-    },
-    {
-      title: "Training",
-      subtitle: "Git Learning",
-      logo_path: "Progate.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
-      alt_name: "Reply",
-      color_code: "#88e7ce",
-    },
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
   ],
 };
 
@@ -514,13 +455,13 @@ const contactPageData = {
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others.",
-    link: "https://medium.com/@vedanshvijay/",
-    avatar_image_path: "blogs_image.svg",
-  },
+  // blogSection: {
+  //   title: "Blogs",
+  //   subtitle:
+  //     "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others.",
+  //   link: "https://medium.com/@vedanshvijay/",
+  //   avatar_image_path: "blogs_image.svg",
+  // },
 };
 
 const projects = {
