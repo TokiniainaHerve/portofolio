@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "Web and mobile developer . Delivering High-Quality, User-Centered Applications. Curious and Ambitious Developer Building Innovative Solutions for a Better Tomorrow",
   resumeLink:
-    "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
+    "https://drive.google.com/file/d/1h54YZU-r1M1gpbR50yxPRCy8xxkcmZVE/view?usp=share_link",
   mail: "mailto:tokiniainaherve.andrianarison@gmail.com",
 };
 
@@ -385,9 +385,9 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile_photo_2.jpeg",
+    profile_image_path: "profile_photo_2.png",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. You can also download my resume ",
   },
   // blogSection: {
   //   title: "Blogs",

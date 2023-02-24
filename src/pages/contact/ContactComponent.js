@@ -31,6 +31,7 @@ function Contact(props) {
               <img
                 className="profile-pic"
                 src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                style={{width:400,height:"auto"}}
                 alt=""
               />
             </div>
@@ -56,7 +57,7 @@ function Contact(props) {
             </div>
           </div>
         </Fade>
-        <Fade bottom duration={1000} distance="40px">
+        {/* <Fade bottom duration={1000} distance="40px">
           <div className="blog-heading-div">
             <div className="blog-heading-text-div">
               <h1 className="blog-heading-text" style={{ color: theme.text }}>
@@ -78,7 +79,7 @@ function Contact(props) {
               <BlogsImg theme={theme} />
             </div>
           </div>
-        </Fade>
+        </Fade> */}
       </div>
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
