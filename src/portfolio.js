@@ -599,6 +599,19 @@ const projects = {
         },
       ],
     },
+    {
+      id: "6",
+      name: "Portofoio App",
+      url: "#",
+      description:
+        "This portofolio website. 😊",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+      ],
+    },
 
   ],
 };
