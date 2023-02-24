@@ -331,111 +331,45 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Internship",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I have 3+ years of experience.I bring expertise in developing user-centered Web applications and mobile applications for both Android and iOS platforms.Expertise in SCRUM and Agile, combining strong teamwork and autonomous work style for successful project delivery.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "Technocolabs",
-          company_url: "https://technocolabs.com/",
-          logo_path: "Technocolabs.jfif",
-          duration: "Sept 2020 - Oct 2020",
-          location: "Remote",
-          description: `Analysed the changes before and after people started using sanitizers using the covid-19 dataset. Built and analysed several predictive models for defaulting user’s credit card and deployed it on a full-stack website using Flask. Made a predictive model for Blood Donation for Future Expectancy and deployed it on a fully-fledged website. Increased productivity and problem-solving technics by 20%. 
+          title: "Web and mobile developer",
+          company: "Adrware",
+          company_url: "https://adrware.mg/",
+          logo_path: "Adrware.jpeg",
+          duration: "Feb 2020 - Today",
+          location: "Antananarivo-Madagascar",
+          description: `Development of web applications using React and .NET Framework and mobile applications for Android and Ios under Kotlin, Java, Swift and React Native .Integration of design and functionalities. Implementation of the software 
+          architecture .
+          Deployment of the application on App
+          Store or Google Play Store or on the web .
+          Develop unit tests and integration tests.
           `,
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
         {
-          title: "Data Science Intern",
-          company: "The Sparks Foundation",
-          company_url: "hhttps://thesparksfoundation.info/",
-          logo_path: "TSF.png",
-          duration: "Aug 2020 - Sept 2020",
-          location: "Remote",
-          description: `Developed predictive models and deployed it on a full-stack website using Flask. Used Boxplot, Heatmap and Confusion Matrix for data visualization. Deep analysis on the superstore dataset using Bar Plots, Bar Charts, Pair Plots and Joint Plots for specific regions.
+          title: "Web Developer Intern",
+          company: "Pulse",
+          company_url: "https://www.pulse.mg/",
+          logo_path: "pulse.jpeg",
+          duration: "Jul 2019 - Oct 2019",
+          location: "Antananarivo-Madagascar",
+          description: `Development of a web application for order management usign ASP.NET MVC and Angular deployed on a Sharepoint Server.
           `,
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
         },
       ],
     },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "R&D Member",
-          company: "Webarch Club",
-          company_url: "https://www.webarchsrm.com/",
-          logo_path: "Webarch.jfif",
-          duration: "Mar 2020 - Nov 2020",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Member responsibilities were to help students in project planning, review issues and pull requests, ensure smooth progress and help juniors out in their difficulties.",
-          color: "#4285F4",
-        },
-        {
-          title: "Campus Leader",
-          company: "Code For Cause",
-          company_url: "https://www.codecau.se/",
-          logo_path: "CFC.jfif",
-          duration: "Nov 2020 - Present",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Held numerous workshops and distributed learning content for freshers. Contributed to development of the causefolio website displaying the information about the Code for Cause Community.",
-          color: "#a60000",
-        },
-        {
-          title: "Machine Learning - Research associate",
-          company: "Next Tech Lab",
-          company_url: "https://nextech.io/",
-          logo_path: "NTL.jfif",
-          duration: "Oct 2020 - Present",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Associate responsibilities were to build fast and efficient machine learning models, have talks on research topics related to computer vision and deep learning. Build team projects and intract with fellow members and ensure smooth progress and help juniors out in their difficulties.",
-          color: "#62cff0",
-        },
-        {
-          title: "Campus Ambassador",
-          company: "Bagcampus",
-          company_url: "https://bagcampus.in/",
-          logo_path: "Bagcampus.jpg",
-          duration: "Dec 2020 - May 2021",
-          location: "Remote",
-          description:
-            "Spread Awareness of new Technologies and Companies and new Opportunities to Students and Grow Bagcampus Community.",
-          color: "#0059c9",
-        },
-        {
-          title: "Volunteer",
-          company: "Google Crowdsource",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "GCS.jfif",
-          duration: "Sept 2020 - Present",
-          location: "Remote",
-          description:
-            "As a member of the global Crowdsource community one can gain recognition from other Crowdsourcers and Google.",
-          color: "#ffffff",
-        },
-        {
-          title: "Student Volunteer",
-          company: "National Service Scheme",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "NSS.jfif",
-          duration: "Dec 2019 - May 2020",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#282b6c",
-        },
-      ],
-    },
+   
   ],
 };
 
@@ -443,7 +377,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "I have built numerous projects during my years of experience, working both with a team and independently depending on the project. Some of these projects are private while others are deployed on the web, Google Play Store, or App Store. Here are some of my projects",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -468,358 +402,204 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Mind Space",
-      url: "https://www.mindspace.cf/",
+      name: "iHemostasis",
+      url: "https://apps.apple.com/fr/app/ihemostasis/id472966966?l=en",
       description:
-        "This is Blogging website where users can create blogs, follow and unfollow other users, get summarized blog reccomendation on their dashboard and have a personalised searching mechanism.",
+        "This is a Mobile app of therapeutic education tool devoted to the mechanisms of coagulation and study of clinical cases in haemostasis field",
       languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
         },
         {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
+          name: "Swift",
+          iconifyClass: "logos-swift",
         },
       ],
     },
     {
       id: "1",
-      name: "Youtube Downloader",
-      url: "https://github.com/vvHacker007/Youtube-Downloader/",
+      name: "Trigger's reports",
+      url: "https://triggersreports.com/",
       description:
-        "A desktop GUI which can be used to download youtube videos and playlist with desired quality and type on desktop.",
+        "A mobile application on iOS / Android and a web application for back office.Security mobile application for professionals and individuals that allows you to locate your loved ones and employees.",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: ".NET Core",
+          iconifyClass: "logos-dotnet",
+        },
+        {
+          name: "Swift",
+          iconifyClass: "logos-swift",
+        },
+        {
+          name: "Java",
+          iconifyClass: "logos-java",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
         },
       ],
     },
     {
       id: "2",
-      name: "Tune In",
-      url: "https://github.com/vvHacker007/Tune-In",
+      name: "The Real madagascar",
+      url: "https://play.google.com/store/apps/details?id=aiolos.com.therealmadagascar&hl=en",
       description:
-        "Tune in is a collaborative music playing system where multiple guests can join a room and enjoy the song being played. Guests can pause and vote to skip the current song.",
+        "The official application of Madagascar's Ministry of Transport, Tourism and Meteorology.An essential, reliable and easy-to-use travel companion. Integrating Google Maps, Facebook authenticator and real time navigation",
       languages: [
+        
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
+          name: "React-Native",
           iconifyClass: "logos-react",
         },
         {
-          name: "Django",
-          iconifyClass: "logos-django",
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "Facebook Authentification",
+          iconifyClass: "logos-facebook",
+        },
+        {
+          name: "Google Maps",
+          iconifyClass: "logos-google-maps",
+        },
+        {
+          name: "Mapbox",
+          iconifyClass: "logos-mapbox",
+        },
+       
+      ],
+    },
+    {
+      id: "3",
+      name: "Editus myBusiness",
+      url: "https://play.google.com/store/apps/details?id=lu.pragma.mybusiness&hl=en_US&gl=US",
+      description:
+        " Mobile app on iOS and Android. With Editus myBusiness, evaluate your visibility on Editus.lu and more than 20 web platforms in Luxembourg. Thanks to the monitoring of your statistics in real time, you will be able to optimize your campaigns and generate a better return on investment for your company. SSO and Adform Integration",
+      languages: [
+        {
+          name: "Kotlin",
+          iconifyClass: "simple-icons:kotlin",
+          style: {
+            color: "#B125EA ",
+          }
+        },
+        {
+          name: "JWT",
+          iconifyClass: "logos-jwt",
+          
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+       
+      ],
+    },
+    {
+      id: "4",
+      name: "Black Pearl v2",
+      url: "",
+      description:
+        "Private web application for order management . Deployed on SharePoint Server",
+      languages: [
+        {
+          name: "ASP.NET MVC",
+          iconifyClass: "logos-dotnet",
+        },
+        {
+          name: "Angular",
+          iconifyClass: "logos-angular",
         },
       ],
     },
     {
       id: "3",
-      name: "Event Scheduler",
-      url: "https://github.com/vvHacker007/Event-Scheduler",
-      description:
-        "It is an all-purpose scheduler software. It is designed to monitor all the activities and give appropriate reminders for them.",
+      name: "Bet Soccer",
+      url: "https://github.com/mbdsp7-Lova-Tokiniaina-Mamitiana",
+      description: "Multi-platform (Web , mobile and desktop) app for bets in Football. Used c# Winform, Node.js,Angular , Android (Java) and Grails(java) ",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          name: "Winform",
+          iconifyClass: "logos-dotnet",
         },
         {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
+          name: "Angular",
+          iconifyClass: "logos-angular",
         },
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          name: "Java",
+          iconifyClass: "logos-java",
         },
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "Grails",
+          iconifyClass: "logos-grails",
         },
         {
-          name: "Flask",
-          iconifyClass: "cib-flask",
+          name: "Node.js",
+          iconifyClass: "logos-nodejs",
         },
       ],
     },
     {
       id: "4",
-      name: "Movie Reccomendation System",
-      url: "https://github.com/vvHacker007/Movie-Recommendation-Systems",
+      name: "Augmented Reality App",
+      url: "",
       description:
-        "Made three python kernels explaining and implementing the three different types of movie recommender systems.",
+        "Made an augmented reality mobile app using ViroReact. Showing locations (hotels,restaurants,...) nearby arround 50 km",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "React-native",
+          iconifyClass: "logos-react",
         },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "Login Authenticator",
-      url: "https://github.com/vvHacker007/Login-Authenticator",
-      description: "Made a template for a Login Authenticator using Flask ",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Calculator",
-      url: "https://github.com/vvHacker007/Calculator",
-      description:
-        "Made a GUI based Calculator. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
+      
       ],
     },
     {
       id: "5",
-      name: "Notepad",
+      name: "Hotel Reservation",
       url: "https://github.com/vvHacker007/Notepad",
       description:
-        "Made a GUI based Notepad. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
+        "Private website hotel reservation like Booking.com",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Tetris",
-      url: "https://github.com/vvHacker007/Tetris",
-      description: "Made a GUI based arcade game Tetris using pygame.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Steganography",
-      url: "https://github.com/vvHacker007/Steganography",
-      description:
-        "A CLI tool to conceal messages within a file, text, image, or video.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Mini Paint",
-      url: "https://github.com/vvHacker007/Mini-Paint",
-      description: "GUI based Mini Paint Application.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Speedtest",
-      url: "https://github.com/vvHacker007/Speed-test",
-      description:
-        "An internet speed testing application which can notify about the download speed, upload speed, and also the reaction time of the connection.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "Cat Classifier",
-      url: "https://github.com/vvHacker007/Cat-Classifier",
-      description:
-        "Binary Cat Classifier made by hard coding Neural Networks in Python without using libraries such as Tensorflow or keras.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Snake",
-      url: "https://github.com/vvHacker007/Snake",
-      description:
-        "A snake game which covers all the basic features like score, high score and an automated speed increase simultaneously when the snake eats the food.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "Score Predictor",
-      url: "https://score-predictor-app.herokuapp.com/",
-      description:
-        "Predicts students score based on the number of hours the student puts in it.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "13",
-      name: "Blood Donation Predictor",
-      url: "https://blood-donation-predictor-app.herokuapp.com/",
-      description:
-        "Predicts if one is ready to donate blood based on the user's blood donation history.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "14",
-      name: "Credit-Card Default Predictor",
-      url: "https://default-predictor-app.herokuapp.com/",
-      description:
-        "Predicts whether user's credit card would be defaulted or not based on the user's bank statements and history.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "15",
-      name: "Portfolio Website",
-      url: "https://vvhacker007.github.io/Portfolio/",
-      description: "You are stalking it right now 😉",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
+          name: "React",
           iconifyClass: "logos-react",
         },
+        {
+          name: "Node.js",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "Typescript",
+          iconifyClass: "vscode-icons:file-type-typescript",
+        },
       ],
     },
+
   ],
 };
 
