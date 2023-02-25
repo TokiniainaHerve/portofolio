@@ -5,7 +5,7 @@ const lightTheme = {
   body: "#FFFFFF",
   text: "#343434",
   dark: "#000000",
-  secondaryText: "#7F8DAA",
+  secondaryText: "#64676b",
   accentColor: "#e53520",
   accentBright: "#FC1056",
   projectCard: "#DCE4F2",

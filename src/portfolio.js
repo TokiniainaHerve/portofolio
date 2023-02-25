@@ -322,7 +322,7 @@ const certifications = {
       subtitle: "Principles of UX/UI Design",
       logo_path: "meta.png",
       certificate_link:
-        "https://coursera.org/share/6e8d12d540903d196c26edb4a6813c00",
+        "https://drive.google.com/file/d/1iO2L6chMbLkFxedwD-jbYe20TEjftVUc/view?usp=sharing",
       alt_name: "UX/UI Design",
       color_code: "#e7870c",
     },
