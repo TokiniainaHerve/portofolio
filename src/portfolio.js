@@ -14,8 +14,9 @@ const greeting = {
   logo_name: "Tokiniaina",
   // nickname: "harry / picleric",
   full_name: "Tokiniaina Hervé",
+  positions:["Web developer.","Mobile developer.","Experienced developer"],
   subTitle:
-    "Web and mobile developer . Delivering High-Quality, User-Centered Applications. Curious and Ambitious Developer Building Innovative Solutions for a Better Tomorrow",
+    " My full name is Tokiniaina Hervé ANDRIANARISON. I am 24 years old . I deliver High-quality, User-Centered applications. Curious and Ambitious Developer Building Innovative Solutions for a Better Tomorrow.",
   resumeLink:
     "https://drive.google.com/file/d/1h54YZU-r1M1gpbR50yxPRCy8xxkcmZVE/view?usp=share_link",
   mail: "mailto:tokiniainaherve.andrianarison@gmail.com",
@@ -113,7 +114,7 @@ const skills = {
           skillName: "C#",
           fontAwesomeClassname: "simple-icons:csharp",
           style: {
-            color: "#F0F8FF",
+            color: "#7a3398",
           },
         },
         {

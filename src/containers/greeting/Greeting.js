@@ -7,6 +7,12 @@ import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
 import FeelingProud2 from "./FeelingProud2";
+import Typed from "react-typed"
+import { useState } from "react";
+import { useEffect } from "react";
+
+
+
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -32,9 +38,18 @@ export default function Greeting(props) {
               >
                 <span>I'm </span>
                 <span style={{ color: theme.accentColor }}>
-                  {greeting.full_name}.{" "}
+                  {greeting.full_name}.{" "}   
                 </span>
-                {greeting.subTitle}
+                <Typed
+                  strings={greeting.positions}
+                  typeSpeed={150}
+                  backSpeed={100}
+                  loop
+                />
+               
+              </p>
+              <p className="greeting-text-p2 subTitle">
+              {greeting.subTitle}
               </p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">

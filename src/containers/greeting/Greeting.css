@@ -12,6 +12,20 @@
   margin-top: 2rem;
   display: block;
 }
+.typing {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(20) forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 
 .greeting-main {
   display: flex;
@@ -40,9 +54,18 @@
   line-height: 0px;
   font-family: "Google Sans Bold Italic";
 }
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
 
 .greeting-text-p {
   font-size: 30px;
+  line-height: 40px;
+  margin-right: 40px;
+  font-family: "Google Sans Medium";
+}
+.greeting-text-p2 {
+  font-size: 24px;
   line-height: 40px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
