@@ -481,7 +481,10 @@ const projects = {
         },
         {
           name: "Mapbox",
-          iconifyClass: "logos-mapbox",
+          iconifyClass: "simple-icons:mapbox",
+          style: {
+            color: "#4264fb",
+          },
         },
        
       ],
@@ -525,7 +528,10 @@ const projects = {
         },
         {
           name: "Angular",
-          iconifyClass: "logos-angular",
+          iconifyClass: "simple-icons:angular",
+          style: {
+            color: "#DE33A6",
+          },
         },
       ],
     },
@@ -541,7 +547,10 @@ const projects = {
         },
         {
           name: "Angular",
-          iconifyClass: "logos-angular",
+          iconifyClass: "simple-icons:angular",
+          style: {
+            color: "#DE33A6",
+          },
         },
         {
           name: "Java",

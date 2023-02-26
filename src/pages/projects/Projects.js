@@ -52,6 +52,7 @@ function Projects(props) {
       <br />
       <br />
       <br />
+      <center>
       <a
         {...styles}
         className="general-btn"
@@ -59,6 +60,7 @@ function Projects(props) {
       >
         More Projects Coming Soon ...
       </a>
+      </center>
       <br />
       <br />
       <Footer theme={props.theme} onToggle={props.onToggle} />

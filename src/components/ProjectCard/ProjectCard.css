@@ -67,7 +67,15 @@
 .repo-details {
   display: flex;
   flex-direction: row;
+  position: absolute;
+  right: 10%;
+  bottom: 4%;
 }
+
+.repo-card{
+  height: 250px;
+}
+
 
 .repo-creation-date {
   margin: 0;
@@ -82,12 +90,17 @@
     font-size: 16px;
   }
 
+  .repo-card{
+    height: 250px;
+  }
+
   .repo-description {
     font-size: 14px;
   }
 
   .repo-details {
     flex-direction: column;
+    bottom: 2%;
   }
 
   .repo-creation-date {

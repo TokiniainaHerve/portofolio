@@ -1,6 +1,5 @@
 .projects-main {
   width: 100%;
-  text-align: center;
 }
 
 .basic-projects {
@@ -54,10 +53,13 @@
   margin-right: 20px;
   font-family: "Google Sans Medium";
 }
+.general-btn{
+  margin :auto;
+}
 
 .repo-cards-div-main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
   gap: 1rem 1rem;
   margin-left: 40px;
   margin-right: 40px;
@@ -97,7 +99,7 @@
   }
 
   .repo-cards-div-main {
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(90%, 1fr));
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 30px;
