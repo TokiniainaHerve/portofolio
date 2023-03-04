@@ -7,6 +7,9 @@ import { GlobalStyles } from "./global";
 import { CursorProvider } from "react-cursor-custom";
 import { settings } from "./portfolio";
 import ReactGA from "react-ga";
+import { Launcher } from "./components/chatComponents";
+
+
 
 function App() {
   useEffect(() => {
@@ -19,6 +22,7 @@ function App() {
   }, []);
 
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+  const [messageList,setMessageList] = useState([]);
   const useCursor = settings.useCustomCursor;
 
   return (
@@ -37,6 +41,15 @@ function App() {
           ) : (
             <Main theme={themes[theme]} setTheme={setTheme} />
           )}
+        <Launcher
+                agentProfile={{
+                  teamName: 'react-chat-window',
+                  imageUrl: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0001-34.png'
+                }}
+                onMessageWasSent={()=>{}}
+                messageList={messageList}
+                showEmoji
+              />
         </div>
       </>
     </ThemeProvider>
