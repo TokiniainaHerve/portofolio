@@ -58,6 +58,7 @@ class Launcher extends Component {
           onFilesSelected={this.props.onFilesSelected}
           agentProfile={this.props.agentProfile}
           isOpen={isOpen}
+          isLoading={this.props.isLoading}
           onClose={this.handleClick.bind(this)}
           showEmoji={this.props.showEmoji}
         />
@@ -84,6 +85,7 @@ Launcher.propTypes = {
   messageList: PropTypes.arrayOf(PropTypes.object),
   mute: PropTypes.bool,
   showEmoji: PropTypes.bool,
+  isLoading:PropTypes.bool
 };
 
 Launcher.defaultProps = {

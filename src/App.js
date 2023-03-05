@@ -24,7 +24,9 @@ function App() {
 
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
   const [messageList,setMessageList] = useState([]);
+  const [isMessageLoading,setMessageLoading] = useState(false);
   const useCursor = settings.useCustomCursor;
+
 
   useEffect(() => {
     // handle the message after rerender
@@ -37,12 +39,14 @@ function App() {
         data: { text: response }
       };
       setMessageList([...messageList, responseObj]);
+      setMessageLoading(false);
     }
   }, [messageList]);
   
   function onMessageWasSent(message){
 
     //Set loading
+    setMessageLoading(true);
     setMessageList([...messageList, message]);
 
   }
@@ -68,6 +72,7 @@ function App() {
                   imageUrl: '/'
                 }}
                 onMessageWasSent={onMessageWasSent}
+                isLoading={isMessageLoading}
                 messageList={messageList}
               />
         </div>
