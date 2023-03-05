@@ -47,7 +47,7 @@ class Launcher extends Component {
     ];
     return (
       <div id="sc-launcher">
-        <div className={classList.join(' ')} onClick={this.handleClick.bind(this)}>
+        <div className={classList.join(' ')} style={{backgroundColor:this.props.theme.accentColor}} onClick={this.handleClick.bind(this)}>
           <MessageCount count={this.props.newMessagesCount} isOpen={isOpen} />
           <img className={'sc-open-icon'} src={launcherIconActive} />
           <img className={'sc-closed-icon'} src={launcherIcon} />
@@ -57,6 +57,7 @@ class Launcher extends Component {
           onUserInputSubmit={this.props.onMessageWasSent}
           onFilesSelected={this.props.onFilesSelected}
           agentProfile={this.props.agentProfile}
+          theme ={this.props.theme}
           isOpen={isOpen}
           isLoading={this.props.isLoading}
           onClose={this.handleClick.bind(this)}

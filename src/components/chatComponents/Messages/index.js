@@ -11,7 +11,7 @@ class Message extends Component {
   _renderMessageOfType(type) {
     switch(type) {
     case 'text':
-      return <TextMessage {...this.props.message} />;
+      return <TextMessage theme={this.props.theme} {...this.props.message} />;
     case 'emoji':
       return <EmojiMessage {...this.props.message} />;
     case 'file':
@@ -28,7 +28,7 @@ class Message extends Component {
     ];
     return (
       <div className="sc-message">
-        <div className={contentClassList.join(' ')}>
+        <div className={contentClassList.join(' ')} style={{color:this.props.message.author === 'me' ?"#FFFFFF":this.props.theme.text_msg}}>
           <div className="sc-message--avatar" style={{
             backgroundImage: `url(${cartoonpdp})`
           }}></div>

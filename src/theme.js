@@ -15,6 +15,12 @@ const lightTheme = {
   imageClothes: "#dce4f2",
   avatarMisc: "#e9ecf2",
   avatarShoes: "#ccd2e3",
+  header_msg:"#52c41a",
+  message_list:"#ffffff",
+  body_msg:"#f4f7f9",
+  text_msg:"#263238",
+  chat_input:"#f4f7f9",
+  input_color:"#565867"
 };
 
 const darkTheme = {
@@ -32,6 +38,13 @@ const darkTheme = {
   imageClothes: "#000000",
   avatarMisc: "#212121",
   avatarShoes: "#2B2B2B",
+  header_msg:"#000000",
+  message_list:"#1D1D1D",
+  body_msg:"#333232",
+  text_msg:"#FFFFFF",
+  chat_input:"#1D1D1D",
+  input_color:"#FFFFFF"
+  
 };
 
 export const themes = { light: lightTheme, dark: darkTheme };

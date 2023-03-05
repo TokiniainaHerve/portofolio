@@ -31,14 +31,17 @@ class ChatWindow extends Component {
           teamName={this.props.agentProfile.teamName}
           imageUrl={imageUrl}
           onClose={this.props.onClose}
+          theme ={this.props.theme}
         />
         <MessageList
           messages={messageList}
           imageUrl={imageUrl}
+          theme ={this.props.theme}
         />
         <UserInput
           onSubmit={this.onUserInputSubmit.bind(this)}
           isLoading={this.props.isLoading}
+          theme ={this.props.theme}
           onFilesSelected={this.onFilesSelected.bind(this)}
           showEmoji={this.props.showEmoji}
         />

@@ -1,10 +1,8 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import SendIcon from "./icons/SendIcon";
-import FileIcon from "./icons/FileIcon";
-import EmojiIcon from "./icons/EmojiIcon";
+
 import PopupWindow from "./popups/PopupWindow";
-import EmojiPicker from "./emoji-picker/EmojiPicker";
 import { Audio } from "react-loader-spinner";
 
 class UserInput extends Component {
@@ -19,7 +17,7 @@ class UserInput extends Component {
   }
 
   componentDidMount() {
-    this.emojiPickerButton = document.querySelector("#sc-emoji-picker-button");
+    
   }
 
   handleKeyDown(event) {
@@ -90,18 +88,7 @@ class UserInput extends Component {
     this.setState({ emojiFilter });
   };
 
-  _renderEmojiPopup = () => (
-    <PopupWindow
-      isOpen={this.state.emojiPickerIsOpen}
-      onClickedOutside={this.closeEmojiPicker}
-      onInputChange={this.handleEmojiFilterChange}
-    >
-      <EmojiPicker
-        onEmojiPicked={this._handleEmojiPicked}
-        filter={this.state.emojiFilter}
-      />
-    </PopupWindow>
-  );
+
 
   _renderSendOrFileIcon() {
     if (!this.props.isLoading) {
@@ -114,10 +101,10 @@ class UserInput extends Component {
     return (
       <div className="sc-user-input--button">
         <Audio
-          height="37"
+          height="17"
           width="37"
           radius="4"
-          color="green"
+          color={this.props.theme.accentColor}
           ariaLabel="three-dots-loading"
           wrapperStyle
           wrapperClass

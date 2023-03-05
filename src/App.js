@@ -71,6 +71,7 @@ function App() {
                   teamName: "Tokiniaina's bot",
                   imageUrl: '/'
                 }}
+                theme={themes[theme]}
                 onMessageWasSent={onMessageWasSent}
                 isLoading={isMessageLoading}
                 messageList={messageList}
