@@ -3,6 +3,7 @@ import TextMessage from './TextMessage';
 import EmojiMessage from './EmojiMessage';
 import FileMessage from './FileMessage';
 import chatIconUrl from '../../../assests/chat/chat-icon.svg';
+import cartoonpdp from '../../../assests/chat/cartoon-pdp.png';
 
 
 class Message extends Component {
@@ -29,7 +30,7 @@ class Message extends Component {
       <div className="sc-message">
         <div className={contentClassList.join(' ')}>
           <div className="sc-message--avatar" style={{
-            backgroundImage: `url(${chatIconUrl})`
+            backgroundImage: `url(${cartoonpdp})`
           }}></div>
           {this._renderMessageOfType(this.props.message.type)}
         </div>

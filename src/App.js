@@ -8,6 +8,7 @@ import { CursorProvider } from "react-cursor-custom";
 import { settings } from "./portfolio";
 import ReactGA from "react-ga";
 import { Launcher } from "./components/chatComponents";
+import { handleQuery } from "./service/ChatbotService";
 
 
 
@@ -25,6 +26,26 @@ function App() {
   const [messageList,setMessageList] = useState([]);
   const useCursor = settings.useCustomCursor;
 
+  useEffect(() => {
+    // handle the message after rerender
+    const lastMessage = messageList[messageList.length - 1];
+    if (lastMessage!= undefined && lastMessage.author === 'me') {
+      const response = handleQuery(lastMessage.data.text);
+      const responseObj = {
+        author: 'bot',
+        type: 'text',
+        data: { text: response }
+      };
+      setMessageList([...messageList, responseObj]);
+    }
+  }, [messageList]);
+  
+  function onMessageWasSent(message){
+
+    //Set loading
+    setMessageList([...messageList, message]);
+
+  }
   return (
     <ThemeProvider theme={themes[theme]}>
       <>
@@ -46,7 +67,7 @@ function App() {
                   teamName: "Tokiniaina's bot",
                   imageUrl: '/'
                 }}
-                onMessageWasSent={()=>{}}
+                onMessageWasSent={onMessageWasSent}
                 messageList={messageList}
               />
         </div>
