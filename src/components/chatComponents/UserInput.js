@@ -139,19 +139,19 @@ class UserInput extends Component {
           onKeyDown={this.handleKeyDown.bind(this)}
           onKeyUp={this.handleKeyUp.bind(this)}
           contentEditable="true"
-          placeholder="Write a reply..."
-          className="sc-user-input--text"
+          placeholder="Write a question..."
+          className={`sc-user-input--text ${(inputActive ? 'active' : '')}`}
         >
         </div>
         <div className="sc-user-input--buttons">
-          <div className="sc-user-input--button"></div>
+          {/* <div className="sc-user-input--button"></div>
           <div className="sc-user-input--button">
             {this.props.showEmoji && <EmojiIcon
               onClick={this.toggleEmojiPicker}
               isActive={emojiPickerIsOpen}
               tooltip={this._renderEmojiPopup()}
             />}
-          </div>
+          </div> */}
           {this._renderSendOrFileIcon()}
         </div>
       </form>

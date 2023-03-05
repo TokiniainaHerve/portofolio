@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import MessageList from './MessageList';
 import UserInput from './UserInput';
 import Header from './Header';
+import imageUrl from '../../assests/chat/cartoon-pdp.png';
 
 
 class ChatWindow extends Component {
@@ -28,12 +29,12 @@ class ChatWindow extends Component {
       <div className={classList.join(' ')}>
         <Header
           teamName={this.props.agentProfile.teamName}
-          imageUrl={this.props.agentProfile.imageUrl}
+          imageUrl={imageUrl}
           onClose={this.props.onClose}
         />
         <MessageList
           messages={messageList}
-          imageUrl={this.props.agentProfile.imageUrl}
+          imageUrl={imageUrl}
         />
         <UserInput
           onSubmit={this.onUserInputSubmit.bind(this)}

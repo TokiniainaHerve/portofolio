@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "Tokiniaina",
   // nickname: "harry / picleric",
   full_name: "Tokiniaina Hervé",
-  positions:["Web developer.","Mobile developer.","Experienced developer"],
+  positions:["Web developer.","Mobile developer.","Experienced developer."],
   subTitle:
     " My full name is Tokiniaina Hervé ANDRIANARISON. I am 24 years old . I deliver High-quality, User-Centered applications. Curious and Ambitious Developer Building Innovative Solutions for a Better Tomorrow.",
   resumeLink:
