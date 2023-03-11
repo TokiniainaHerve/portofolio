@@ -4,8 +4,10 @@ const faqs = [
     answer: ["hi", "hello", "bonjour"],
   },
   {
-    question: ["How many years of experience do you have?", "exp"],
-    answer: ["experience"],
+    question: ["How many years of experience do you have", "exp"],
+    answer: [
+      "I have 3+ years of experience in Web and mobile development. I have an expertise in SCRUM and Agile, combining strong teamwork and autonomous work style for successful project delivery.",
+    ],
   },
   { question: ["What inspired you to become a developer?"], answer: [""] },
   {
@@ -42,7 +44,13 @@ const faqs = [
     ],
     answer: [""],
   },
-  { question: ["What kind of applications do you develop?"], answer: [""] },
+  {
+    question: ["What kind of applications do you develop?"],
+    answer: [
+      "I develop web and mobile applications for Android and iOS and can also assure their deployment. The applications I develop cover various fields including tourism, therapy, business, ... ",
+      "My area of expertise revolves around developing web and mobile applications for Android and iOS. I am proficient in ensuring the proper deployment of these applications, and the industries that I cater to include tourism, therapy, and business.",
+    ],
+  },
   { question: ["What technologies do you use to develop your applications?"] },
   {
     question: [
