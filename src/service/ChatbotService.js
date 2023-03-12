@@ -1,3 +1,5 @@
+import { natural } from "natural";
+
 const faqs = [
   {
     question: ["hi", "hello", "Good morning"],
@@ -190,7 +192,7 @@ function findBestMatch(query) {
   let bestScore = 0;
   for (let i = 0; i < faqs.length; i++) {
     for (let j = 0; j < faqs[i].question.length; j++) {
-      let score = getSimilarityScore(query, faqs[i].question[j]);
+      let score = getSimilarityScore2(query, faqs[i].question[j]);
       if (score > bestScore) {
         bestMatch = i;
         bestScore = score;
@@ -229,11 +231,22 @@ function getSimilarityScore(str1, str2) {
   let similarity = 1 - distance / maxDistance;
   return similarity;
 }
+function getSimilarityScore2(str1, str2) {
+  const tokenizer = new natural.tokenizer();
+  const tokens1 = tokenizer.tokenize(str1.toLowerCase());
+  const tokens2 = tokenizer.tokenize(str2.toLowerCase());
+
+  const vector1 = new natural.TfIdf().addDocument(tokens1);
+  const vector2 = new natural.TfIdf().addDocument(tokens2);
+
+  const score = natural.TfIdf.cosineSimilarity(vector1, vector2);
+  return score;
+}
 
 // Define a function to handle user queries
 function handleQuery(query) {
   let bestMatch = findBestMatch(query);
-
+  console.log(query + "->" + bestMatch);
   if (bestMatch != -1) {
     let n = faqs[bestMatch].answer.length;
     let random = Math.floor(Math.random() * n);
