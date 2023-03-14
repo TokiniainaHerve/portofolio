@@ -453,7 +453,39 @@ const faqs = [
 
   {
     //Project management && collaboration
-    question: ["Can you explain your approach to project management?"],
+    question: [
+      "Can you explain your approach to project management?",
+      "How do you typically manage projects?",
+      "What is your project management methodology?",
+      "Can you walk me through your project management style?",
+      "What are the key principles of your approach to project management?",
+      "Can you describe your project management philosophy?",
+      "How do you ensure projects stay on track?",
+      "What tools do you use to manage projects?",
+      "Can you tell me about a project you successfully managed?",
+      "How do you handle changes in project scope?",
+      "What steps do you take to mitigate project risks?",
+      "How do you communicate progress to stakeholders?",
+      "Can you explain your approach to project scheduling?",
+      "What is your process for tracking project budgets?",
+      "How do you handle conflicts within a project team?",
+      "Can you discuss your approach to project documentation?",
+      "What is your experience with agile project management?",
+      "Can you explain your approach to project prioritization?",
+      "How do you ensure quality control in projects?",
+      "What are the main challenges you face when managing projects?",
+      "Can you discuss your experience with project collaboration tools?",
+      "How do you identify and address project dependencies?",
+      "What is your experience with project risk assessment?",
+      "Can you explain your approach to project status reporting?",
+      "What is your experience with project resource allocation?",
+      "How do you handle project delays or setbacks?",
+      "Can you discuss your experience with project milestone tracking?",
+      "How do you ensure project deadlines are met?",
+      "What is your experience with project requirements gathering?",
+      "How do you ensure project stakeholders are satisfied?",
+      "Can you discuss your experience with project cost estimation?",
+    ],
     answer: [""],
   },
 
@@ -496,7 +528,38 @@ const faqs = [
 
   {
     //Handle criticism behavior
-    question: ["How do you handle constructive criticism or feedback?"],
+    question: [
+      "How do you handle constructive criticism or feedback?",
+      "How do you approach receiving feedback?",
+      "What is your process for incorporating feedback?",
+      "Can you give an example of a time when you received constructive criticism?",
+      "How do you separate personal feelings from feedback on your work?",
+      "What is your strategy for responding to negative feedback?",
+      "How do you determine which feedback to incorporate into your work?",
+      "What is your mindset when receiving feedback?",
+      "Can you describe a time when you successfully implemented feedback?",
+      "How do you handle conflicting feedback?",
+      "What steps do you take to understand the feedback given?",
+      "How do you deal with feedback that you disagree with?",
+      "What do you do to ensure you learn from feedback given to you?",
+      "What is your process for addressing feedback from multiple sources?",
+      "What is your experience with receiving feedback from team members?",
+      "What do you think is the most important thing to keep in mind when receiving feedback?",
+      "How do you incorporate feedback while maintaining your own voice and style?",
+      "What is your experience with receiving feedback from supervisors or managers?",
+      "How do you handle feedback that is not actionable?",
+      "What do you do to prevent getting defensive when receiving feedback?",
+      "How do you handle feedback that conflicts with your own perspective?",
+      "What is your experience with providing feedback to others?",
+      "How do you use feedback to improve your performance?",
+      "What is your experience with receiving feedback in a public setting?",
+      "How do you balance feedback with your own intuition?",
+      "What do you think is the biggest challenge in receiving feedback?",
+      "What is your approach to incorporating feedback into your long-term goals?",
+      "How do you ask for feedback to ensure it is constructive?",
+      "What is your experience with receiving feedback on your communication skills?",
+      "How do you ensure you don't take feedback personally?",
+    ],
     answer: [""],
   },
   // Particular project
@@ -506,8 +569,6 @@ const faqs = [
     ],
     answer: [""],
   },
-
-  // Add more FAQs here
 
   //Collaboration and teamwork
   {
