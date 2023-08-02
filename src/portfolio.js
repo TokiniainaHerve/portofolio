@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "Tokiniaina",
   // nickname: "harry / picleric",
   full_name: "Tokiniaina Hervé",
-  positions:["Web developer.","Mobile developer.","Experienced developer"],
+  positions: ["Web developer.", "Mobile developer.", "Experienced developer"],
   subTitle:
     " My full name is Tokiniaina Hervé ANDRIANARISON. I am 24 years old . I deliver High-quality, User-Centered applications. Curious and Ambitious Developer Building Innovative Solutions for a Better Tomorrow.",
   resumeLink:
@@ -74,7 +74,7 @@ const skills = {
             color: "#007acc",
           },
         },
-       
+
         {
           skillName: "React",
           fontAwesomeClassname: "simple-icons:react",
@@ -131,21 +131,21 @@ const skills = {
             color: "#3DDC84",
           },
         },
-         {
-           skillName: "Flutter",
-           fontAwesomeClassname: "simple-icons:flutter",
-           style: {
-             color: "#02569B",
-           },
-         },
-         {
-           skillName: "Dart",
-         fontAwesomeClassname: "simple-icons:dart",
+        {
+          skillName: "Flutter",
+          fontAwesomeClassname: "simple-icons:flutter",
           style: {
-           color: "#29B0EE",
+            color: "#02569B",
           },
-         },
-         {
+        },
+        {
+          skillName: "Dart",
+          fontAwesomeClassname: "simple-icons:dart",
+          style: {
+            color: "#29B0EE",
+          },
+        },
+        {
           skillName: "Java",
           fontAwesomeClassname: "simple-icons:java",
           style: {
@@ -180,13 +180,13 @@ const skills = {
             color: "#4479A1",
           },
         },
-       
-         {
-         skillName: "Apache",
-           fontAwesomeClassname: "simple-icons:apache",
-           style: {
+
+        {
+          skillName: "Apache",
+          fontAwesomeClassname: "simple-icons:apache",
+          style: {
             color: "#CA1A22",
-           },
+          },
         },
         {
           skillName: "Oracle database",
@@ -202,9 +202,6 @@ const skills = {
             color: "#E94E32",
           },
         },
-        
-       
-      
       ],
     },
     {
@@ -217,7 +214,6 @@ const skills = {
         "⚡ Experience with Continuous Integration",
       ],
       softwareSkills: [
-      
         {
           skillName: "Heroku",
           fontAwesomeClassname: "simple-icons:heroku",
@@ -246,7 +242,6 @@ const skills = {
             color: "#47A248",
           },
         },
-       
       ],
     },
   ],
@@ -267,7 +262,8 @@ const degrees = {
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
       website_link: "https://univ-cotedazur.fr/",
-      width:330,height:"auto",
+      width: 330,
+      height: "auto",
     },
     {
       title: "It -  University",
@@ -280,8 +276,9 @@ const degrees = {
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
       website_link: "https://www.ituniversity-mg.com/page/",
-      width:330,height:"auto",
-    }
+      width: 330,
+      height: "auto",
+    },
   ],
 };
 
@@ -289,7 +286,8 @@ const certifications = {
   certifications: [
     {
       title: "Meta Android developer",
-      subtitle: "Job-ready skills for an in-demand career and earn a credential from Meta.",
+      subtitle:
+        "Job-ready skills for an in-demand career and earn a credential from Meta.",
       logo_path: "meta_android.png",
       certificate_link:
         "https://www.credly.com/badges/9e62b367-5091-436c-a760-9a7b6e9aadae",
@@ -297,7 +295,7 @@ const certifications = {
       // color_code: "#2AAFED",
       color_code: "#2AAFED",
     },
-   
+
     {
       title: "Java Certification",
       subtitle: "Codingame: Problems solving with Java",
@@ -318,12 +316,12 @@ const certifications = {
     //   color_code: "#47A048",
     // },
     {
-      title: "Meta UX/UI Design",
-      subtitle: "Principles of UX/UI Design",
-      logo_path: "meta.png",
+      title: "Meta Front-End Developer Certificate",
+      subtitle: "Front-End development with React,Javascript,HTML and CSS.",
+      logo_path: "meta-front.png",
       certificate_link:
-        "https://drive.google.com/file/d/1iO2L6chMbLkFxedwD-jbYe20TEjftVUc/view?usp=sharing",
-      alt_name: "UX/UI Design",
+        "https://www.credly.com/badges/e5b924a3-e426-44e9-8a7f-d354a89379ac/public_url",
+      alt_name: "Meta Front-End Developer Certificate",
       color_code: "#e7870c",
     },
   ],
@@ -370,7 +368,6 @@ const experience = {
         },
       ],
     },
-   
   ],
 };
 
@@ -458,11 +455,11 @@ const projects = {
     {
       id: "2",
       name: "The Real madagascar",
-      url: "https://play.google.com/store/apps/details?id=aiolos.com.therealmadagascar&hl=en",
+      url:
+        "https://play.google.com/store/apps/details?id=aiolos.com.therealmadagascar&hl=en",
       description:
         "The official application of Madagascar's Ministry of Transport, Tourism and Meteorology.An essential, reliable and easy-to-use travel companion. Integrating Google Maps, Facebook authenticator and real time navigation",
       languages: [
-        
         {
           name: "React-Native",
           iconifyClass: "logos-react",
@@ -486,13 +483,13 @@ const projects = {
             color: "#4264fb",
           },
         },
-       
       ],
     },
     {
       id: "3",
       name: "Editus myBusiness",
-      url: "https://play.google.com/store/apps/details?id=lu.pragma.mybusiness&hl=en_US&gl=US",
+      url:
+        "https://play.google.com/store/apps/details?id=lu.pragma.mybusiness&hl=en_US&gl=US",
       description:
         " Mobile app on iOS and Android. With Editus myBusiness, evaluate your visibility on Editus.lu and more than 20 web platforms in Luxembourg. Thanks to the monitoring of your statistics in real time, you will be able to optimize your campaigns and generate a better return on investment for your company. SSO and Adform Integration",
       languages: [
@@ -501,18 +498,16 @@ const projects = {
           iconifyClass: "simple-icons:kotlin",
           style: {
             color: "#B125EA ",
-          }
+          },
         },
         {
           name: "JWT",
           iconifyClass: "logos-jwt",
-          
         },
         {
           name: "Firebase",
           iconifyClass: "logos-firebase",
         },
-       
       ],
     },
     {
@@ -539,7 +534,8 @@ const projects = {
       id: "3",
       name: "Bet Soccer",
       url: "https://github.com/mbdsp7-Lova-Tokiniaina-Mamitiana",
-      description: "Multi-platform (Web , mobile and desktop) app for bets in Football. Used c# Winform, Node.js,Angular , Android (Java) and Grails(java) ",
+      description:
+        "Multi-platform (Web , mobile and desktop) app for bets in Football. Used c# Winform, Node.js,Angular , Android (Java) and Grails(java) ",
       languages: [
         {
           name: "Winform",
@@ -577,15 +573,13 @@ const projects = {
           name: "React-native",
           iconifyClass: "logos-react",
         },
-      
       ],
     },
     {
       id: "5",
       name: "Hotel Reservation",
       url: "https://github.com/vvHacker007/Notepad",
-      description:
-        "Private website hotel reservation like Booking.com",
+      description: "Private website hotel reservation like Booking.com",
       languages: [
         {
           name: "React",
@@ -613,8 +607,7 @@ const projects = {
       id: "6",
       name: "Portofoio App",
       url: "#",
-      description:
-        "This portofolio website. 😊",
+      description: "This portofolio website. 😊",
       languages: [
         {
           name: "React",
@@ -622,7 +615,6 @@ const projects = {
         },
       ],
     },
-
   ],
 };
 
