@@ -7,7 +7,7 @@
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "test": "react-scripts test"
   },
   "dependencies": {
@@ -16,7 +16,6 @@
     "fs": "0.0.1-security",
     "glamor": "^2.20.40",
     "node-fetch": "^2.6.1",
-    "node-sass": "^7.0.0",
     "prettier-package-json": "^2.1.3",
     "react": "^16.8.0",
     "react-bootstrap": "^1.4.3",
@@ -30,6 +29,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.4",
     "react-typed": "^1.2.0",
+    "sass": "^1.71.1",
     "styled-components": "^5.2.1",
     "styletron-engine-atomic": "^1.4.6",
     "styletron-react": "^5.2.7"

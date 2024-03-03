@@ -6,6 +6,23 @@ const settings = {
   useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-174238252-2",
 };
+const birthDate = "1998-12-23";
+const experienceDate = "2020-01-01";
+function calculateAge(birthDate) {
+  const today = new Date();
+  const birthDateObj = new Date(birthDate);
+  let age = today.getFullYear() - birthDateObj.getFullYear();
+  const monthDiff = today.getMonth() - birthDateObj.getMonth();
+
+  if (
+    monthDiff < 0 ||
+    (monthDiff === 0 && today.getDate() < birthDateObj.getDate())
+  ) {
+    age--;
+  }
+
+  return age;
+}
 
 //Home Page
 const greeting = {
@@ -16,7 +33,9 @@ const greeting = {
   full_name: "Tokiniaina Hervé",
   positions: ["Web developer.", "Mobile developer.", "Experienced developer"],
   subTitle:
-    " My full name is Tokiniaina Hervé ANDRIANARISON. I am 24 years old . I deliver High-quality, User-Centered applications. Curious and Ambitious Developer Building Innovative Solutions for a Better Tomorrow.",
+    " My full name is Tokiniaina Hervé ANDRIANARISON. I am " +
+    calculateAge(birthDate) +
+    " years old . I deliver High-quality, User-Centered applications. Curious and Ambitious Developer Building Innovative Solutions for a Better Tomorrow.",
   resumeLink:
     "https://drive.google.com/file/d/1h54YZU-r1M1gpbR50yxPRCy8xxkcmZVE/view?usp=share_link",
   mail: "mailto:tokiniainaherve.andrianarison@gmail.com",
@@ -332,7 +351,9 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
   description:
-    "I have 3+ years of experience.I bring expertise in developing user-centered Web applications and mobile applications for both Android and iOS platforms.Expertise in SCRUM and Agile, combining strong teamwork and autonomous work style for successful project delivery.",
+    "I have " +
+    calculateAge(experienceDate) +
+    "+ years of experience.I bring expertise in developing user-centered Web applications and mobile applications for both Android and iOS platforms.Expertise in SCRUM and Agile, combining strong teamwork and autonomous work style for successful project delivery.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -398,6 +419,23 @@ const contactPageData = {
 
 const projects = {
   data: [
+    {
+      id: "00",
+      name: "Delerium",
+      url:
+        "https://play.google.com/store/apps/details?id=com.iconicsoft.delerium",
+      description:
+        "Truth or Drink game in Mauritian Creole tailored for adults 18 and above who cherish Mauritius. This immersive app is designed to foster genuine connections and laughter among friends. With a curated collection of thought-provoking and lighthearted questions, Delerium offers an array of prompts to encourage players to share truths or indulge in a drink, leading to hilariously candid moments and unexpected revelations.",
+      languages: [
+        {
+          name: "Kotlin",
+          iconifyClass: "simple-icons:kotlin",
+          style: {
+            color: "#B125EA ",
+          },
+        },
+      ],
+    },
     {
       id: "0",
       name: "iHemostasis",
