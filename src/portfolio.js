@@ -37,7 +37,7 @@ const greeting = {
     calculateAge(birthDate) +
     " years old . I deliver High-quality, User-Centered applications. Curious and Ambitious Developer Building Innovative Solutions for a Better Tomorrow.",
   resumeLink:
-    "https://drive.google.com/file/d/1h54YZU-r1M1gpbR50yxPRCy8xxkcmZVE/view?usp=share_link",
+    "https://drive.google.com/file/d/1udNCj03LAGtHvZYQX_DBjYvmLtBzw6L6/view?usp=sharing",
   mail: "mailto:tokiniainaherve.andrianarison@gmail.com",
 };
 
@@ -110,14 +110,14 @@ const skills = {
         },
         {
           skillName: "Vue.js",
-          fontAwesomeClassname: "simple-icons:vuejs",
+          fontAwesomeClassname: "logos:vue",
           style: {
             color: "#dd1b16",
           },
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "vscode-icons:file-type-node",
           style: {
             color: "#339933",
           },
@@ -166,7 +166,7 @@ const skills = {
         },
         {
           skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          fontAwesomeClassname: "devicon:java",
           style: {
             color: "#f89820",
           },
