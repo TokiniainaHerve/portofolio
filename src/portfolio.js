@@ -37,7 +37,7 @@ const greeting = {
     calculateAge(birthDate) +
     " years old . I deliver High-quality, User-Centered applications. Curious and Ambitious Developer Building Innovative Solutions for a Better Tomorrow.",
   resumeLink:
-    "https://drive.google.com/file/d/1udNCj03LAGtHvZYQX_DBjYvmLtBzw6L6/view?usp=sharing",
+    "https://drive.google.com/file/d/1Zop5eWzBr5NsGl0erB6fakT-bm50qlsJ/view?usp=sharing",
   mail: "mailto:tokiniainaherve.andrianarison@gmail.com",
 };
 
