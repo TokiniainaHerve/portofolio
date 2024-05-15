@@ -616,7 +616,7 @@ const projects = {
     {
       id: "5",
       name: "Hotel Reservation",
-      url: "https://github.com/vvHacker007/Notepad",
+      url: "https://www.aiolia.us",
       description: "Private website hotel reservation like Booking.com",
       languages: [
         {
