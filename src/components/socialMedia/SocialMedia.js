@@ -41,15 +41,18 @@ export default function socialMedia() {
         <i className="fab fa-google"></i>
         <span></span>
       </a>
-      {/* <a
-        href={socialMediaLinks.twitter}
-        className="icon-button twitter"
+      <a
+        href={socialMediaLinks.upwork}
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-twitter"></i>
-        <span></span>
+        <img
+          style={{ width: 72, height: 42, marginBottom: -13, marginLeft: -7 }}
+          src={require("../../assests/images/upwork_logo.png")}
+          alt=""
+        />
       </a>
+      {/*
       <a
         href={socialMediaLinks.instagram}
         className="icon-button instagram"

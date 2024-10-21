@@ -46,6 +46,8 @@ const socialMediaLinks = {
   github: "",
   linkedin: "https://www.linkedin.com/in/toky-herve/",
   gmail: "tokiniainaherve.andrianarison@gmail.com",
+  upwork:
+    "https://www.upwork.com/freelancers/~0180408075c9d46342?mp_source=share",
   // gitlab: "https://gitlab.com/harikanani",
   facebook: "",
   twitter: "",
