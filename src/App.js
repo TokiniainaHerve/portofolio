@@ -9,13 +9,31 @@ import { settings } from "./portfolio";
 import ReactGA from "react-ga";
 
 function App() {
+  // useEffect(() => {
+  //   if (settings.googleTrackingID) {
+  //     ReactGA.initialize(settings.googleTrackingID, {
+  //       testMode: process.env.NODE_ENV === "test",
+  //     });
+  //     ReactGA.pageview(window.location.pathname + window.location.search);
+  //   }
+  // }, []);
+
   useEffect(() => {
-    if (settings.googleTrackingID) {
-      ReactGA.initialize(settings.googleTrackingID, {
-        testMode: process.env.NODE_ENV === "test",
-      });
-      ReactGA.pageview(window.location.pathname + window.location.search);
-    }
+    // Adding the Google Analytics script to the document head
+    const script = document.createElement("script");
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-Y1Z1VW8T5W";
+    script.async = true;
+    document.head.appendChild(script);
+
+    // Adding inline script to initialize Google Analytics
+    const inlineScript = document.createElement("script");
+    inlineScript.innerHTML = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Y1Z1VW8T5W');
+    `;
+    document.head.appendChild(inlineScript);
   }, []);
 
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
