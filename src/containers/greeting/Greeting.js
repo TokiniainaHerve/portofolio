@@ -7,12 +7,9 @@ import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
 import FeelingProud2 from "./FeelingProud2";
-import Typed from "react-typed"
+import Typed from "react-typed";
 import { useState } from "react";
 import { useEffect } from "react";
-
-
-
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -38,7 +35,7 @@ export default function Greeting(props) {
               >
                 <span>I'm </span>
                 <span style={{ color: theme.accentColor }}>
-                  {greeting.full_name}.{" "}   
+                  {greeting.full_name}.{" "}
                 </span>
                 <Typed
                   strings={greeting.positions}
@@ -46,10 +43,11 @@ export default function Greeting(props) {
                   backSpeed={100}
                   loop
                 />
-               
               </p>
               <p className="greeting-text-p2 subTitle">
-              {greeting.subTitle}
+                {greeting.subTitle}
+                <span style={{ fontWeight: "bold" }}> {greeting.rated}</span>
+                {greeting.subTitle2}
               </p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">

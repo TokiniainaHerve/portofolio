@@ -32,10 +32,13 @@ const greeting = {
   // nickname: "harry / picleric",
   full_name: "Tokiniaina Hervé",
   positions: ["Web developer.", "Mobile developer.", "Experienced developer"],
+  rated: "Top Rated Freelancer",
   subTitle:
     " My full name is Tokiniaina Hervé ANDRIANARISON. I am " +
     calculateAge(birthDate) +
-    " years old . I deliver High-quality, User-Centered applications. Curious and Ambitious Developer Building Innovative Solutions for a Better Tomorrow.",
+    " years old .",
+  subTitle2:
+    "  on Upwork. I deliver High-quality, User-Centered applications. Curious and Ambitious Developer Building Innovative Solutions for a Better Tomorrow.",
   resumeLink:
     "https://drive.google.com/file/d/1Zop5eWzBr5NsGl0erB6fakT-bm50qlsJ/view?usp=sharing",
   mail: "mailto:tokiniainaherve.andrianarison@gmail.com",
@@ -363,10 +366,21 @@ const experience = {
       experiences: [
         {
           title: "Web and mobile developer",
+          company: "Upwork",
+          company_url: "https://adrware.mg/",
+          logo_path: "upwork.png",
+          duration: "Feb 2022 - Today",
+          location: "Antananarivo-Madagascar",
+          description: `Top Rated Freelancer. Web and mobile developments and  Deployment of the application on App Store or Google Play Store or on the web.`,
+          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          color: "#6FDA44",
+        },
+        {
+          title: "Web and mobile developer",
           company: "Adrware",
           company_url: "https://adrware.mg/",
           logo_path: "Adrware.jpeg",
-          duration: "Feb 2020 - Today",
+          duration: "Feb 2020 - Feb 2024",
           location: "Antananarivo-Madagascar",
           description: `Development of web applications using React and .NET Framework and mobile applications for Android and Ios under Kotlin, Java, Swift and React Native .Integration of design and functionalities. Implementation of the software 
           architecture .
